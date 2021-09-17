@@ -1,0 +1,34 @@
+.header {
+    text-align: center;
+    color: gray;
+}
+
+hr {
+    width: 120px;
+    border: 1px gray;
+    border-bottom: 0;
+    display: block;
+    margin: 25px auto;
+}
+
+.container {
+    text-align: center;
+}
+
+.font {
+    font-size: 3em;
+    color: orange;
+}
+
+.tekst {
+    font-size: 16px;
+    color: gray;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 80%;
+    background-color: gray;
+    line-height: 80px;
+  }

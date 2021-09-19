@@ -1,0 +1,30 @@
+.header {
+    text-align: center;
+    color: gray;
+}
+
+hr {
+    width: 200px;
+    border: 1px gray;
+    border-bottom: 0;
+    display: block;
+    margin: 25px auto;
+}
+
+
+
+.list-group {
+    text-align: center;
+    background-color: gray;
+}
+
+.accordion-button::after {
+    display: none;
+}
+
+.accordion-button {
+    justify-content: center;
+    color: orange;
+    background-color: gray;
+}
+

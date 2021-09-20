@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.glowa {
+    background-color: red;
+    order: 1; 
+}
+
+.lewo {
+    background-color: green;
+    order: 2;
+}
+
+.prawo {
+    background-color: orange;
+    order: 4;
+}
+
+.dol {
+    background-color: violet;
+    order: 5;
+}
+
+.srodek {
+    background-color: blue;
+    order: 3;
+}
+
+header, aside, main, footer {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+header, footer {
+    line-height: 70px;
+}
+
+aside, main {
+    height: 200px;
+}
+
+
+@media all and (min-width: 768px) {
+    .lewo {
+        order: 4;
+    }
+    .srodek {
+        order: 2;
+        flex-basis: 70%;
+    }
+    .prawo {
+        order: 3;
+        flex-basis: 30%;
+    }
+}
+
+@media all and (min-width: 992px) {
+    .lewo {
+        order: 2;
+        flex-basis: 20%;
+    }
+    .srodek {
+        order: 3;
+        flex-basis: 60%;
+    }
+    .prawo {
+        order: 4;
+        flex-basis: 20%;
+    }
+}
+
+
+
+/* .outer {
+    height: 1400px;
+    width: 1600px;
+    background-color: burlywood;
+    border: 10px black;
+    position: relative;
+}
+
+.glowa {
+    height: 10vh;
+    width: 1600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    z-index: 15;
+    position: relative;
+}
+
+.lewo {
+    width: 300px;
+    height: 1200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    background-color: green;
+    position: relative;
+    z-index: 15;
+}
+
+.srodek {
+    width: 1000px;
+    height: 1200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    object-position: top;
+    position: absolute;
+} */

@@ -1,0 +1,12 @@
+p {
+    height: 100px;
+    width:  100px;
+    background-color: red;
+}
+p.first,p.second,p.third {
+    background-color: blue;
+}
+
+p.fourth,p.fifth {
+    opacity: 0.4;
+}

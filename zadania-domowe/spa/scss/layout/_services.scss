@@ -37,4 +37,10 @@
             }
         }
     }
+
+    @media all and (min-width: $medium) {
+        .service {
+            height: 400px;
+        }
+    }
 }

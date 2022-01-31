@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: skyblue;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+hr {
+    max-width: 700px;
+    border: 4px solid blue;
+    border-bottom: 0;
+}
+
+section {
+    padding: 120px 0;
+}
+
+.section-header {
+    margin-bottom: 75px;
+}
+
+.section-header h2 {
+    color: brown;
+    font-size: 1.9em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.header-item {
+    height: 70vh;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-item .main-header {
+    text-align: center;
+}
+
+
+.header-item .main-header h1 {
+    font-size: 4.2em;
+    color: blue;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.header-item .main-header p {
+    color: #333;
+    font-size: 1.3em;
+    margin: 40px 0;
+}
+
+.header-item .main-header p span {
+    color: blue;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.header-item .main-header .btn {
+    border: 2px solid black;
+    margin-left: 10px;
+    text-size-adjust: 20px;
+    padding: 25px;
+    background-color: blue;
+    color: red;
+    text-transform: uppercase;
+}
+
+.header-item .main-header .btn:hover {
+    padding: 40px;
+    transition: all 2s;
+    color: white;
+}
+
+.main-menu {
+    background-color: blue;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.main-menu ul .item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.main-menu ul .item a {
+    color: red;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    transition: all 3s;
+    border: 1px solid black;
+}
+
+.main-menu ul .item a:hover {
+    background-color: blueviolet;
+    color: white;
+    padding: 30px;
+}
+
+#profile .container .section header hr {
+    width: 1200px;
+}
+
+.btn2 {
+    border: 2px solid black;
+    color: red;
+    background-color: blue;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+.btn2:hover {
+    cursor: pointer;
+    background-color: blueviolet;
+    color: wheat;
+    transition: 2s;
+}
+
+.about {
+    text-align: center;
+}
+
+.about img {
+    border-radius: 50%;
+}
+
+.movie {
+    text-align: center;
+}
+
+footer {
+    background-color: white;
+    max-width: auto;
+    height: 50px;
+    text-align: center;
+}
+
+.film {
+    margin-top: 100px;
+}
+
+
+.family {
+    background-color: blueviolet;
+}
+
+.portfolio-wraper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-wraper .portfolio-item {
+    flex-basis: 25%;
+    height: 200px;
+    position: relative;
+}
+
+.portfolio-wraper .portfolio-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolio-wraper .portfolio-item h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    margin: 0;
+    text-align: center;
+    line-height: 200%;
+    color: white;
+    font-size: 3em;
+    opacity: 0;
+    transition: all 3s;
+}
+
+.portfolio-wraper .portfolio-item h3:hover {
+    opacity: 1;
+}
+
+
+
+@media (max-width: 1200px) {
+    body {
+        width: 100%;
+    }
+}
+
+
+
+
+
+

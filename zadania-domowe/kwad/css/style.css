@@ -1,0 +1,12 @@
+body {
+    background-color: gray;
+    color: white;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px black solid;
+    background-color: orange;
+    margin-top: 10px;
+}

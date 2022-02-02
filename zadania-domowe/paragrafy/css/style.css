@@ -1,0 +1,27 @@
+p {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin-top: 300px;
+}
+
+
+p:nth-of-type(1) {
+    background-color: blue;
+}
+
+p:nth-of-type(2) {
+    background-color: blue;
+}
+
+p:nth-of-type(3) {
+    background-color: blue;
+}
+
+p:nth-of-type(5) {
+    opacity: 0;
+}
+
+p:nth-of-type(6) {
+    opacity: 0,1;
+}

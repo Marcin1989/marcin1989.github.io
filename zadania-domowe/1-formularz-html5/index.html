@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1-formularz-html5</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div>Zarejestroj sie</div>
+
+    <form action="https://formspree.io/f/xqknqlrl" method="post">
+        <label for="name"><input type="text" id="name">Imie</label>
+        <label for="surname"><input type="text" id="surname">Nazwisko</label>
+        <label for="mail"><input type="email" id="mail">Email</label>
+        <label for="phone"><input type="tel" id="phone">Telefon</label>
+        <div>Wybierz miasto</div>
+        <label for="city"><input type="radio" name="place" id="city">Poznan</label>
+        <label for="city"><input type="radio" name="place" id="city">Warszawa</label>
+        <label for="city"><input type="radio" name="place" id="city">Krakow</label>
+        <div>Jestes kobieta czy mezczyzna ?</div>
+        <label for="sex"><input type="radio" name="born" id="sex">Mezczyzna</label>
+        <label for="sex"><input type="radio" name="born" id="sex">Kobieta</label>
+        <label for="confirm"><input type="checkbox" id="confirm">Wyrazam zgode</label>
+        <div>Napisz do nas</div>
+        <label for="message"> <textarea name="write" id="message" cols="30" rows="30"></textarea></label>
+        <label for="sent"><input type="submit" id="sent">Wyslij wiadomosc</label>
+
+
+    </form>
+
+    
+
+
+
+</body>
+
+</html>

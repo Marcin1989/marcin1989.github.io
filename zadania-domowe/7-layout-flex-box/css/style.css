@@ -1,0 +1,76 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: red;
+    width: 100%;
+}
+
+p, .text {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+section {
+    background-color: blue;
+    width: 50%;
+}
+    
+
+#right {
+   background-color: burlywood;
+   width: 25%;
+}
+
+#left {
+    background-color: green;
+    width: 25%;
+}
+
+footer {
+    background-color: blueviolet;
+    width: 100%;
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    section {
+        width: 70%;
+    }
+    #right {
+        width: 30%;
+    }
+    #left {
+        width: 100%;
+        order: 1;
+    }
+
+    footer {
+        order: 5;
+    }
+
+}
+
+@media (max-width: 768px) {
+    section {
+        width: 100%;
+    }
+    #right {
+        width: 100%;
+        order: 2;
+    }
+    #left {
+        width: 100%;
+        order: 1;
+    }
+
+    footer {
+        order: 5;
+    }
+   
+}
+
+
